@@ -1,3 +1,6 @@
-from tkgrider import Grid
+from .tkgrider import *
 
-__all__ = ["Grid"]
+__all__ = ["Pack"]
+
+packcol = Pack().packcol
+packrow = Pack().packrow
