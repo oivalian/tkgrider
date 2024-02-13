@@ -92,14 +92,17 @@ There are five optional keyword arguments available for each method:
 
 ```iy``` adds inner y-axis padding to grid
 
-```s=``` defines 'sticky' values for all cells
+```stick=``` defines 'sticky' values for all cells
+
+```reverse=``` flips grid placement using boolean (for ```packcol```: right to left, top to bottom, for ```packrow```: left to right, bottom to top)
+
 
 example:
-```Pack.pack(widgets, 3, 3, x=20, y=20, s='nw')```
+```Pack.packcol(widgets, 3, x=20, y=20, reverse=True)```
 
 Output:
 
-![img_5](https://github.com/oivalian/tkgrider/assets/109859213/91bcbdfa-f07a-497d-88b6-1b4bafc9bdca)
+![image](https://github.com/oivalian/tkgrider/assets/109859213/3e40b86c-8d26-4c01-a6b2-e613e1155bb9)
 
 > More features will be added soon. I plan to add more grid customisation such as styling, colspan, rowspan options
 > access and change particular widgets etc.
