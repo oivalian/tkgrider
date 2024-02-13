@@ -52,7 +52,7 @@ Pack.packcol(widgets, 3)
 ```
 Output:
 
-![img_2.png](img_2.png)
+![img_2](https://github.com/oivalian/tkgrider/assets/109859213/1ce5f96c-65f5-448e-8d9d-c1e9e0c6c04f)
 
 **Pack by row height**
 
@@ -65,7 +65,7 @@ Pack.packrow(widgets, 3)
 ```
 Output:
 
-![img_3.png](img_3.png)
+![img_3](https://github.com/oivalian/tkgrider/assets/109859213/8b58e207-f148-4c2d-91ef-2667112c68bc)
 
 **Pack by row height and col width**
 
@@ -78,7 +78,7 @@ Pack.pack(widgets, 2, 4)
 ```
 Output:
 
-![img_4.png](img_4.png)
+![img_4](https://github.com/oivalian/tkgrider/assets/109859213/c6774543-0acd-4223-8bdd-9bac70c090ef)
 
 **Keyword args**
 
@@ -92,14 +92,17 @@ There are five optional keyword arguments available for each method:
 
 ```iy``` adds inner y-axis padding to grid
 
-```s=``` defines 'sticky' values for all cells
+```stick=``` defines 'sticky' values for all cells
+
+```reverse=``` flips grid placement using boolean (for ```packcol```: right to left, top to bottom, for ```packrow```: left to right, bottom to top)
+
 
 example:
-```Pack.pack(widgets, 3, 3, x=20, y=20, s='nw')```
+```Pack.packcol(widgets, 3, x=20, y=20, reverse=True)```
 
 Output:
 
-![img_5.png](img_5.png)
+![image](https://github.com/oivalian/tkgrider/assets/109859213/3e40b86c-8d26-4c01-a6b2-e613e1155bb9)
 
 > More features will be added soon. I plan to add more grid customisation such as styling, colspan, rowspan options
 > access and change particular widgets etc.
