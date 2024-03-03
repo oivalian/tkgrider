@@ -32,7 +32,7 @@ item6 = tk.Label(root, text="Example 6")
 wigdets = [item1, item2, item3, item4, item5, item6]
 ```
 
-**-- Packing Functions --**
+**-- Packing Methods --**
 
 Place widgets into a list and feed as an attribute.
 
@@ -84,15 +84,15 @@ Output:
 
 There are five optional keyword arguments available for each method:
 
-```x=``` adds outer x-axis padding to grid
+```x``` adds outer x-axis padding to grid
 
-```y=``` adds outer y-axis padding to grid
+```y``` adds outer y-axis padding to grid
 
 ```ix``` adds inner x-axis padding to grid
 
 ```iy``` adds inner y-axis padding to grid
 
-```stick=``` defines 'sticky' values for all cells
+```stick``` defines 'sticky' values for all cells
 
 ```reverse=``` flips grid placement using boolean (for ```packcol```: right to left, top to bottom, for ```packrow```: left to right, bottom to top)
 
