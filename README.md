@@ -1,5 +1,5 @@
 # **tkgrider**
-A library that simplifies tkinter grids by feeding in lists into simple functions
+A module that simplifies tkinter grids by feeding in lists into simple functions
 
 ___
 
